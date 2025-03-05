@@ -8,33 +8,6 @@ Welcome to the **Mthree Training** repository! This repository serves as a struc
 
 This repository is systematically divided into weekly training sessions:
 
-```
-Mthree_Training/
-│   README.md
-│
-├── week 1/
-│   ├── Git_Commands_and_Concepts_14-02-2025.md
-│   ├── Git_and_SQL_Learning_13-02-2025.md
-│
-├── week 2/
-│   ├── Linux_Command_19-02-2025.md
-│   ├── Linux_Commands_17-02-2025.md
-│   ├── Linux_Command_Learnings_20-02-2025.md
-│   ├── Linux_Commands_and_Shell_Scripting_18-02-2025.md
-│   ├── Python_Project_Setup_21-02-2025.md
-│
-├── week 3/
-│   ├── Advanced_Linux_and_Jenkins_setup_25-02-2025.md
-│   ├── Docker_Setup_and_Commands_Reference_24-02-2024.md
-│   ├── Jenkins_python_project_setup_26-02-2025.md
-│   ├── Kubernetes_and_Jenkins_Deployment_Project_Documentation_27-02-2025.md
-│   ├── summary_till_27FEB2025.md
-│
-├── week 4/
-│   ├── Kubernetes_04-03-2025.md
-│   ├── Python_String_Manipulation_Functions_03-03-2025.md
-|   ├── k8s-master-app
-```
 
 ---
 
