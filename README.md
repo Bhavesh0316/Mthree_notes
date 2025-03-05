@@ -15,9 +15,6 @@ Mthree_Training/
 ├── week 1/
 │   ├── Git_Commands_and_Concepts_14-02-2025.md
 │   ├── Git_and_SQL_Learning_13-02-2025.md
-│   ├── SQL_Learning_10-02-2025.md
-│   ├── SQL_Learning_11-02-2025.md
-│   ├── SQL_Learning_12-02-2025.md
 │
 ├── week 2/
 │   ├── Linux_Command_19-02-2025.md
