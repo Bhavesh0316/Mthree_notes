@@ -47,6 +47,7 @@ This repository is systematically divided into weekly training sessions:
    git clone https://github.com/Bhavesh0316/Mthree_notes.git
    cd Mthree_notes
    ```
+   
 2. Explore the relevant week's folder and open the `.md` files for reference.
 
 ---
