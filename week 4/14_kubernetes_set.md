@@ -4,7 +4,7 @@
 
 During this Kubernetes project, we covered:
 
-### **1️ Kubernetes Core Concepts**
+### ** Kubernetes Core Concepts**
 - **Pods**: Smallest deployable unit in Kubernetes, running our Flask app.
 - **Deployments**: Manages rolling updates and ensures multiple replicas are running.
 - **Services**: Exposes our application via **NodePort** and **Port Forwarding**.
@@ -59,23 +59,7 @@ docker build --network=host -t k8s-master-app:latest .
 
 ---
 
-### **Step 4️: Deploying Kubernetes Resources (Without Validation)**
-```bash
-./scripts/deploy.sh
-```
-**Actions Performed:**
-- Created namespace (`k8s-demo`).
-- Created ConfigMaps & Secrets.
-- Created Persistent Volumes & Claims.
-- Created Deployments & Services.
-- Created HorizontalPodAutoscaler (HPA).
-
-**Kubernetes Resources:**
-![Linux Commands](../images/Screenshot%20from%202025-03-06%2000-14-21.png)
-
----
-
-### **Step 5️: Checking Deployment Status**
+### **Step 4: Checking Deployment Status**
 ```bash
 kubectl -n k8s-demo get deployments --timeout=10s
 kubectl -n k8s-demo get pods --timeout=10s
@@ -89,7 +73,7 @@ kubectl -n k8s-demo get pods --timeout=10s
 
 ---
 
-### **Step 6️: Setting Up Port Forwarding (With Collision Handling)**
+### **Step 5: Setting Up Port Forwarding (With Collision Handling)**
 ```bash
 kubectl -n k8s-demo port-forward svc/k8s-master-app 8080:80 &
 ```
@@ -101,13 +85,14 @@ kubectl -n k8s-demo port-forward svc/k8s-master-app 8080:80 &
 
 ---
 
-### **Step 7️: Accessing the Application**
+### **Step 6: Accessing the Application**
 #### ** Option 1: Port Forwarding (Localhost)**
 ```bash
 kubectl -n k8s-demo port-forward svc/k8s-master-app 8080:80
 ```
 Opened: `http://localhost:8080`
 
+![Linux Commands](../images/Screenshot%20from%202025-03-06%2000-14-21.png)
 
 
 #### ** Option 2: NodePort (Minikube IP)**
@@ -118,7 +103,7 @@ Accessed at: `http://<MINIKUBE-IP>:30080`
 
 ---
 
-### **Step 8️: Opening the Kubernetes Dashboard**
+### **Step 7: Opening the Kubernetes Dashboard**
 ```bash
 minikube dashboard
 ```
@@ -128,11 +113,11 @@ minikube dashboard
 
 ---
 
-### **Step 9️⃣: Cleaning Up Deployment**
+### **Step 8: Cleaning Up Deployment**
 ```bash
 ./scripts/cleanup.sh
 ```
-✅ **Actions Performed:**
+**Actions Performed:**
 - Deleted all Kubernetes resources.
 - Stopped Minikube if no longer needed.
 
